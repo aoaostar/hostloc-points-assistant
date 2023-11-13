@@ -13,5 +13,8 @@ $ python3 main.py
 ```
 #### Docker
 ```bash
-docker run --rm -t ghcr.io/HostlocPointsAssistant -v /path/to/config.yml:/opt/loc/config.yml
+docker run --rm -t -v /path/to/config.yml:/opt/loc/config.yml ghcr.io/aoaostar/hostloc-points-assistant:latest
 ```
+
+### Thanks
+<https://github.com/Jox2018/hostloc_getPoints>
